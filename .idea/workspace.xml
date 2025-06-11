@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9c077dbc-dc25-44d9-9a40-c1082bb2952a" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2y0G6SwLhOnripEaEvF8TvyBpRr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.StartUpMediathek.executor": "Run",
+    "Application.StartUpMediathek_Blatt06.executor": "Run",
+    "Application.start.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.AusleiheMedienFormatiererComparatorTest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/finnlangenkaemper/eclipse-workspace/Mediathek_Vorlage_Blatt06/src/de/uni_hamburg/informatik/swt/se2/mediathek",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/finnlangenkaemper/eclipse-workspace/Mediathek_Vorlage_Blatt06/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/de/uni_hamburg/informatik/swt/se2/mediathek" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.uni_hamburg.informatik.swt.se2.mediathek.entitaeten" />
+      <recent name="de.uni_hamburg.informatik.swt.se2.mediathek.services.verleih" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="StartUpMediathek" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="de.uni_hamburg.informatik.swt.se2.mediathek.startup.StartUpMediathek_Blatt06" />
+      <module name="Mediathek_Vorlage_Blatt06" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c077dbc-dc25-44d9-9a40-c1082bb2952a" name="Changes" comment="" />
+      <created>1748963901993</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748963901993</updated>
+      <workItem from="1748963903311" duration="849000" />
+      <workItem from="1748964862625" duration="91000" />
+      <workItem from="1748964964442" duration="67000" />
+      <workItem from="1748965044912" duration="406000" />
+      <workItem from="1748965453901" duration="1896000" />
+      <workItem from="1749556228579" duration="8022000" />
+      <workItem from="1749565474410" duration="718000" />
+      <workItem from="1749566327159" duration="1543000" />
+      <workItem from="1749568561368" duration="474000" />
+      <workItem from="1749569048188" duration="991000" />
+      <workItem from="1749570431922" duration="82000" />
+      <workItem from="1749572398451" duration="3251000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

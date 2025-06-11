@@ -1,0 +1,155 @@
+Tue Jun 10 14:18:15 CEST 2025: Rückgabe
+CD:
+    Titel: Hard candy
+    Kommentar: besser
+    Interpret: Madonna
+    Spiellänge: 65
+am 30.3.2021 verliehen an
+    Kundennummer: 123456
+    Name: Susi Sonnenschein
+    Telefon: unbekannt
+    Anschrift:
+    Sonnenallee 20
+    22760 Hamburg
+Tue Jun 10 14:18:24 CEST 2025: Rückgabe
+KonsolenVideospiel:
+    Titel: Resident Evil 5
+    Kommentar: Chris Redfield, der bekannte Titelheld aus Resident Evil, ist dem Bösen rund um den Globus auf den Fersen
+    System: Xbox 360
+am 26.3.2021 verliehen an
+    Kundennummer: 123460
+    Name: Katarina Klum
+    Telefon: unbekannt
+    Anschrift:
+    Ottensener Strasse 10
+    22761 Hamburg
+Tue Jun 10 14:18:35 CEST 2025: Ausleihe
+CD:
+    Titel: One of the Boys
+    Kommentar: Das ist das neue Album von Katy Perry One of the Boys inklusive der Hitsingles Hot N Cold und I Kissed A Girl.
+    Interpret: Katy Perry
+    Spiellänge: 70
+am 10.6.2025 verliehen an
+    Kundennummer: 123457
+    Name: Kai Konrad
+    Telefon: unbekannt
+    Anschrift:
+    Kannenweg 23
+    21868 Stade
+Tue Jun 10 18:32:46 CEST 2025: Ausleihe
+CD:
+    Titel: Disturbia
+    Kommentar: gut
+    Interpret: Rihanna
+    Spiellänge: 90
+am 10.6.2025 verliehen an
+    Kundennummer: 123465
+    Name: John. J. Ava
+    Telefon: unbekannt
+    Anschrift:
+    Wurtstrasse 23
+    58507 Köln
+Tue Jun 10 18:35:55 CEST 2025: Ausleihe
+DVD:
+    Titel: James Bond - Ein Quantum Trost
+    Kommentar: Ein Quantum Trost setzt da an, wo Casino Royale endet
+    Regisseur: Marc Forster
+    Laufzeit: 110
+am 10.6.2025 verliehen an
+    Kundennummer: 123462
+    Name: John Rambo
+    Telefon: unbekannt
+    Anschrift:
+    Fightstreet 99
+    60311 Frankfurt
+Tue Jun 10 18:36:05 CEST 2025: Ausleihe
+CD:
+    Titel: Wincing the Night Away
+    Kommentar: Die fleißigsten Slacker der Indie-Szene 
+    Interpret: the Shins
+    Spiellänge: 69
+am 10.6.2025 verliehen an
+    Kundennummer: 123465
+    Name: John. J. Ava
+    Telefon: unbekannt
+    Anschrift:
+    Wurtstrasse 23
+    58507 Köln
+Tue Jun 10 18:36:24 CEST 2025: Rückgabe
+CD:
+    Titel: Wincing the Night Away
+    Kommentar: Die fleißigsten Slacker der Indie-Szene 
+    Interpret: the Shins
+    Spiellänge: 69
+am 10.6.2025 verliehen an
+    Kundennummer: 123465
+    Name: John. J. Ava
+    Telefon: unbekannt
+    Anschrift:
+    Wurtstrasse 23
+    58507 Köln
+Tue Jun 10 18:36:32 CEST 2025: Ausleihe
+CD:
+    Titel: Wincing the Night Away
+    Kommentar: Die fleißigsten Slacker der Indie-Szene 
+    Interpret: the Shins
+    Spiellänge: 69
+am 10.6.2025 verliehen an
+    Kundennummer: 123461
+    Name: Anna Kurnikowa
+    Telefon: unbekannt
+    Anschrift:
+    Osterweg 1
+    22670 Hamburg
+Tue Jun 10 18:54:05 CEST 2025: Ausleihe
+CD:
+    Titel: Garden State
+    Kommentar: Soundtrack
+    Interpret: Various
+    Spiellänge: 56
+am 10.6.2025 verliehen an
+    Kundennummer: 123463
+    Name: Chuck Norris
+    Telefon: unbekannt
+    Anschrift:
+    Supermannweg 100
+    80331 München
+Tue Jun 10 18:54:30 CEST 2025: Ausleihe
+DVD:
+    Titel: James Bond - Ein Quantum Trost
+    Kommentar: Ein Quantum Trost setzt da an, wo Casino Royale endet
+    Regisseur: Marc Forster
+    Laufzeit: 110
+am 10.6.2025 verliehen an
+    Kundennummer: 123463
+    Name: Chuck Norris
+    Telefon: unbekannt
+    Anschrift:
+    Supermannweg 100
+    80331 München
+Tue Jun 10 18:54:34 CEST 2025: Ausleihe
+DVD:
+    Titel: Hellboy
+    Kommentar: Red - der dämonische Held aus der Unterwelt
+    Regisseur: Guillermo Del Toro
+    Laufzeit: 110
+am 10.6.2025 verliehen an
+    Kundennummer: 123463
+    Name: Chuck Norris
+    Telefon: unbekannt
+    Anschrift:
+    Supermannweg 100
+    80331 München
+Tue Jun 10 19:00:03 CEST 2025: Ausleihe
+DVD:
+    Titel: Hellboy
+    Kommentar: Red - der dämonische Held aus der Unterwelt
+    Regisseur: Guillermo Del Toro
+    Laufzeit: 110
+am 10.6.2025 verliehen an
+    Kundennummer: 123463
+    Name: Chuck Norris
+    Telefon: unbekannt
+    Anschrift:
+    Supermannweg 100
+    80331 München
