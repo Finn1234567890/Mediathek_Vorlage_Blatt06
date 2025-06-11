@@ -8,7 +8,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertFalse;
 
 /*
- * Testklasse für die Vormerkkarte
+ * Testklasse für die Vormerkkarte testet
  */
 public class VormerkkarteTest
 {
