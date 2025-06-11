@@ -20,7 +20,7 @@ import de.uni_hamburg.informatik.swt.se2.mediathek.ui.hauptwerkzeug.MediathekWer
  * @author SE2-Team
  * @version SoSe 2021
  */
-public class StartUpMediathek_Blatt06
+public class StartUpMediathek_Blatt06 //startup hier
 {
 
     private static final File KUNDEN_DATEI = new File(
