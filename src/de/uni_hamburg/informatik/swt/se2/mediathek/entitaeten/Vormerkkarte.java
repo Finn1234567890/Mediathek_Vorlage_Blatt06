@@ -65,8 +65,6 @@ public class Vormerkkarte
      */
     public void addVormerker(Kunde kunde) {
         _vormerker.add(kunde);
-        System.out.println("vormerker added");
-        System.out.println(_vormerker);
     }
 
     /**
@@ -94,8 +92,9 @@ public class Vormerkkarte
      *
      * @return true oder false ob vormerken moeglich ist
      */
-    public boolean istVormerkenMoeglich() {
-        return _vormerker.size() < 3;
+    public boolean istVormerkenMoeglich(Kunde kunde) {
+
+        return _vormerker.size() < 3 && !_vormerker.contains(kunde);
     }
 
     /**

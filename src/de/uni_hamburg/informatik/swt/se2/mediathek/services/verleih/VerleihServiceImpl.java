@@ -245,7 +245,7 @@ public class VerleihServiceImpl extends AbstractObservableService
         boolean result = true;
 
         for(Medium m : medium) {
-            if (!getVormerkkarteFuer(m).istVormerkenMoeglich()) {
+            if (!getVormerkkarteFuer(m).istVormerkenMoeglich(kunde)) {
                 result = false;
             }
         }

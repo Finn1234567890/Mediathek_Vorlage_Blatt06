@@ -218,11 +218,11 @@ public class VormerkWerkzeug
         if (kunde != null && !medien.isEmpty()) {
             for (Medium medium : medien) {
                 Vormerkkarte vormerkkarte = _verleihService.getVormerkkarteFuer(medium);
-                if (!vormerkkarte.istVormerkenMoeglich()) {
+                if (!vormerkkarte.istVormerkenMoeglich(kunde)) {
                     vormerkenMoeglich = false;
                     break; //die Schleife bricht, sobald ein ausgewahltes Medium nicht vormerkbar ist
                 }
-                else if (vormerkkarte.istVormerkenMoeglich()) {
+                else if (vormerkkarte.istVormerkenMoeglich(kunde)) {
                     vormerkenMoeglich = true;
                 }
             }
