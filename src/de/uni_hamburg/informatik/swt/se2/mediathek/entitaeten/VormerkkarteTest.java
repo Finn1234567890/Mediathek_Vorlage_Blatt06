@@ -5,7 +5,7 @@ import de.uni_hamburg.informatik.swt.se2.mediathek.entitaeten.medien.Medium;
 import de.uni_hamburg.informatik.swt.se2.mediathek.wertobjekte.Kundennummer;
 import org.junit.Test;
 
-import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.*;
 
 /*
  * Testklasse für die Vormerkkarte testet
@@ -37,33 +37,38 @@ public class VormerkkarteTest
     @Test
     public void TestIstVormerkenMoeglich()
     {
-        _vormerkkarte.addVormerker(_kunde2);
-        _vormerkkarte.addVormerker(_kunde3);
+        Vormerkkarte vormerkkarte = new Vormerkkarte(_medium);
 
-        assertFalse(_vormerkkarte.istVormerkenMoeglich(_kunde3)); //Vormerker darf nicht 2 mal auf Vormerkliste stehen
-        assertFalse(_vormerkkarte.istVormerkenMoeglich(_kunde4)); //nicht mehr als 3 Vormerker
+        vormerkkarte.addVormerker(_kunde1);
+        vormerkkarte.addVormerker(_kunde2);
+        vormerkkarte.addVormerker(_kunde3);
+
+        assertFalse(vormerkkarte.istVormerkenMoeglich(_kunde3)); //Vormerker darf nicht 2 mal auf Vormerkliste stehen
+        assertFalse(vormerkkarte.istVormerkenMoeglich(_kunde4)); //nicht mehr als 3 Vormerker
     }
 
     @Test
     public void TestMerkeVor()
     {
-        _vormerkkarte.merkeVor(_kunde2);
-        _vormerkkarte.merkeVor(_kunde3);
+        Vormerkkarte vormerkkarte = new Vormerkkarte(_medium);
+        vormerkkarte.addVormerker(_kunde1);
 
-        assertTrue(_vormerkkarte.getVormerkerListe().contains(_kunde2));
-        assertTrue(_vormerkkarte.getVormerkerListe().contains(_kunde1));
+        assertFalse(vormerkkarte.getVormerker().contains(_kunde2));
+        assertTrue(vormerkkarte.getVormerker().contains(_kunde1));
     }
 
     @Test
     public void TestGetErstenVormerker()
     {
-        _vormerkkarte.merkeVor(_kunde2);
-        _vormerkkarte.merkeVor(_kunde3);
+        Vormerkkarte vormerkkarte = new Vormerkkarte(_medium);
 
-        assertEquals(_kunde1, _vormerkkarte.gibErstenVormerker());
+        vormerkkarte.addVormerker(_kunde1);
+        vormerkkarte.addVormerker(_kunde2);
 
-        _vormerkkarte.entferneVormerker();
-        assertEquals(_kunde2, _vormerkkarte.gibErstenVormerker());
+        assertEquals(_kunde1, vormerkkarte.getErstenVormerker());
+
+        vormerkkarte.entferneOberstenVormerker();
+        assertEquals(_kunde2, vormerkkarte.getErstenVormerker());
     }
 
     @Test
@@ -75,36 +80,44 @@ public class VormerkkarteTest
     @Test
     public void TestEntferneOberstenVormerker()
     {
-        _vormerkkarte.merkeVor(_kunde2);
-        _vormerkkarte.entferneVormerker();
-        assertFalse(_vormerkkarte.getVormerkerListe().contains(_kunde1));
-        assertEquals(_kunde2, _vormerkkarte.gibErstenVormerker());
-        assertTrue(_vormerkkarte.getVormerkerListe().contains(_kunde2));
+        Vormerkkarte vormerkkarte = new Vormerkkarte(_medium);
+
+        vormerkkarte.addVormerker(_kunde1);
+        vormerkkarte.addVormerker(_kunde2);
+
+        vormerkkarte.entferneOberstenVormerker();
+
+        assertFalse(vormerkkarte.getVormerker().contains(_kunde3));
+        assertEquals(_kunde2, vormerkkarte.getErstenVormerker());
     }
 
     @Test
     public void TestGetVormerker()
     {
-        assertEquals(_kunde1, _vormerkkarte.getVormerker(0));
+        Vormerkkarte vormerkkarte = new Vormerkkarte(_medium);
 
-        _vormerkkarte.merkeVor(_kunde2);
-        _vormerkkarte.merkeVor(_kunde3);
+        vormerkkarte.addVormerker(_kunde1);
+        vormerkkarte.addVormerker(_kunde2);
+        vormerkkarte.addVormerker(_kunde3);
 
-        assertEquals(_kunde2, _vormerkkarte.getVormerker(1));
-        assertEquals(_kunde3, _vormerkkarte.getVormerker(2));
+        assertEquals(_kunde1, vormerkkarte.getVormerker().get(0));
+        assertEquals(_kunde2, vormerkkarte.getVormerker().get(1));
+        assertEquals(_kunde3, vormerkkarte.getVormerker().get(2));
     }
-    
+
     @Test
     public void TestAddVormerker()
     {
-    	//kunde 1 nicht weil der bei initalisierung schon drin war
-    	_vormerkkarte.addVormerker(_kunde2);
-        _vormerkkarte.addVormerker(_kunde3);
+       Vormerkkarte vormerkkarte = new Vormerkkarte(_medium);
+
+        //kunde 1 nicht weil der bei initalisierung schon drin war
+        vormerkkarte.addVormerker(_kunde1);
+        vormerkkarte.addVormerker(_kunde2);
+        vormerkkarte.addVormerker(_kunde3);
 
         // korrekt vorgemerkt?
-        assertEquals(_kunde1, _vormerkkarte.getVormerker(0));
-        assertEquals(_kunde2, _vormerkkarte.getVormerker(1));
-        assertEquals(_kunde3, _vormerkkarte.getVormerker(2));
+        assertEquals(_kunde1, vormerkkarte.getVormerker().get(0));
+        assertEquals(_kunde2, vormerkkarte.getVormerker().get(1));
+        assertEquals(_kunde3, vormerkkarte.getVormerker().get(2));
     }
-
 }
