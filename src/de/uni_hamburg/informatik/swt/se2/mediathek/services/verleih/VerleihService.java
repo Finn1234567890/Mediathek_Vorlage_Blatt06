@@ -70,7 +70,7 @@ public interface VerleihService extends ObservableService
      *
      * @return kunde
      *
-     * @ensure index muss groesser als 0 und kleiner als 3
+     * @ensure index muss groesser gleich 0 und kleiner als 3 (0 <= index <=2)
      */
     Kunde getVormerker(Medium medium, int index);
 

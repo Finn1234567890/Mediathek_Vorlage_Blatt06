@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c077dbc-dc25-44d9-9a40-c1082bb2952a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uni_hamburg/informatik/swt/se2/mediathek/entitaeten/Vormerkkarte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uni_hamburg/informatik/swt/se2/mediathek/entitaeten/Vormerkkarte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uni_hamburg/informatik/swt/se2/mediathek/entitaeten/VormerkkarteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uni_hamburg/informatik/swt/se2/mediathek/entitaeten/VormerkkarteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uni_hamburg/informatik/swt/se2/mediathek/services/verleih/VerleihServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uni_hamburg/informatik/swt/se2/mediathek/services/verleih/VerleihServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uni_hamburg/informatik/swt/se2/mediathek/ui/vormerken/VormerkWerkzeug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uni_hamburg/informatik/swt/se2/mediathek/ui/vormerken/VormerkWerkzeug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/uni_hamburg/informatik/swt/se2/mediathek/services/verleih/VerleihService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uni_hamburg/informatik/swt/se2/mediathek/services/verleih/VerleihService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/uni_hamburg/informatik/swt/se2/mediathek/services/verleih/VerleihServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uni_hamburg/informatik/swt/se2/mediathek/services/verleih/VerleihServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/uni_hamburg/informatik/swt/se2/mediathek/ui/ausleihe/AusleihWerkzeug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uni_hamburg/informatik/swt/se2/mediathek/ui/ausleihe/AusleihWerkzeug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/uni_hamburg/informatik/swt/se2/mediathek/ui/subwerkzeuge/vormerkmedienauflister/VormerkMedienauflisterWerkzeug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uni_hamburg/informatik/swt/se2/mediathek/ui/subwerkzeuge/vormerkmedienauflister/VormerkMedienauflisterWerkzeug.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/verleihProtokoll.txt" beforeDir="false" afterPath="$PROJECT_DIR$/verleihProtokoll.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,18 +21,33 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Finn1234567890&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {}
+}]]></component>
+  <component name="GitHubPullRequestState"><![CDATA[{
+  "prStates": [
+    {
+      "id": {
+        "id": "PR_kwDOO5tywc6aCFMP",
+        "number": 2
+      },
+      "lastSeen": 1750143259176
+    },
+    {
+      "id": {
+        "id": "PR_kwDOO5tywc6aZ_hS",
+        "number": 3
+      },
+      "lastSeen": 1750150321612
+    }
+  ]
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:Finn1234567890/Mediathek_Vorlage_Blatt06.git",
+    "accountId": "bb424c30-f7d4-4564-861f-b03742a38f94"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Finn1234567890/Mediathek_Vorlage_Blatt06.git&quot;,
-    &quot;accountId&quot;: &quot;6c170d83-2c46-4bfd-9574-54d909332c88&quot;
-  }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -51,14 +67,22 @@
     "Application.start.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.AusleiheMedienFormatiererComparatorTest.executor": "Run",
+    "JUnit.VerleihServiceImplTest.executor": "Run",
+    "JUnit.VerleihServiceImplTest.testNichtMehrAlsDreiVormerkerMoeglich.executor": "Run",
+    "JUnit.VerleihServiceImplTest.testNurObersterVormerkerKannAusleihen.executor": "Debug",
+    "JUnit.VerleihServiceImplTest.testVerleihenUpdatedVormerker.executor": "Debug",
+    "JUnit.VerleihServiceImplTest.testVorgemerktesMediumIstVorgemerkt.executor": "Run",
+    "JUnit.VerleihServiceImplTest.testVormerkerLeerInitialisiert.executor": "Debug",
+    "JUnit.VerleihServiceImplTest.testeVerleihUndRueckgabeVonMedien.executor": "Run",
     "JUnit.VormerkkarteTest.executor": "Run",
+    "JavaMethodFindUsagesOptions.isImplementingMethods": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/testKlassen",
+    "git-widget-placeholder": "verleihServiceImplTest__malte",
     "last_opened_file_path": "/Users/finnlangenkaemper/eclipse-workspace/Mediathek_Vorlage_Blatt06/src/de/uni_hamburg/informatik/swt/se2/mediathek",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -66,10 +90,10 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/finnlangenkaemper/eclipse-workspace/Mediathek_Vorlage_Blatt06/src/Main.java",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -85,7 +109,7 @@
       <recent name="de.uni_hamburg.informatik.swt.se2.mediathek.services.verleih" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.VormerkkarteTest">
+  <component name="RunManager" selected="JUnit.VerleihServiceImplTest.testVerleihenUpdatedVormerker">
     <configuration name="StartUpMediathek" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="de.uni_hamburg.informatik.swt.se2.mediathek.startup.StartUpMediathek_Blatt06" />
       <module name="Mediathek_Vorlage_Blatt06" />
@@ -94,32 +118,101 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VormerkkarteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VerleihServiceImplTest.testNurObersterVormerkerKannAusleihen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mediathek_Vorlage_Blatt06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.uni_hamburg.informatik.swt.se2.mediathek.entitaeten.*" />
+          <option name="PATTERN" value="de.uni_hamburg.informatik.swt.se2.mediathek.services.verleih.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.uni_hamburg.informatik.swt.se2.mediathek.entitaeten" />
-      <option name="MAIN_CLASS_NAME" value="de.uni_hamburg.informatik.swt.se2.mediathek.entitaeten.VormerkkarteTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="de.uni_hamburg.informatik.swt.se2.mediathek.services.verleih" />
+      <option name="MAIN_CLASS_NAME" value="de.uni_hamburg.informatik.swt.se2.mediathek.services.verleih.VerleihServiceImplTest" />
+      <option name="METHOD_NAME" value="testNurObersterVormerkerKannAusleihen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerleihServiceImplTest.testVerleihenUpdatedVormerker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mediathek_Vorlage_Blatt06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.uni_hamburg.informatik.swt.se2.mediathek.services.verleih.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.uni_hamburg.informatik.swt.se2.mediathek.services.verleih" />
+      <option name="MAIN_CLASS_NAME" value="de.uni_hamburg.informatik.swt.se2.mediathek.services.verleih.VerleihServiceImplTest" />
+      <option name="METHOD_NAME" value="testVerleihenUpdatedVormerker" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerleihServiceImplTest.testVorgemerktesMediumIstVorgemerkt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mediathek_Vorlage_Blatt06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.uni_hamburg.informatik.swt.se2.mediathek.services.verleih.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.uni_hamburg.informatik.swt.se2.mediathek.services.verleih" />
+      <option name="MAIN_CLASS_NAME" value="de.uni_hamburg.informatik.swt.se2.mediathek.services.verleih.VerleihServiceImplTest" />
+      <option name="METHOD_NAME" value="testVorgemerktesMediumIstVorgemerkt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerleihServiceImplTest.testVormerkkarteLeerInitialisiert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mediathek_Vorlage_Blatt06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.uni_hamburg.informatik.swt.se2.mediathek.services.verleih.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.uni_hamburg.informatik.swt.se2.mediathek.services.verleih" />
+      <option name="MAIN_CLASS_NAME" value="de.uni_hamburg.informatik.swt.se2.mediathek.services.verleih.VerleihServiceImplTest" />
+      <option name="METHOD_NAME" value="testVormerkkarteLeerInitialisiert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerleihServiceImplTest.testeVerleihUndRueckgabeVonMedien" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mediathek_Vorlage_Blatt06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.uni_hamburg.informatik.swt.se2.mediathek.services.verleih.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.uni_hamburg.informatik.swt.se2.mediathek.services.verleih" />
+      <option name="MAIN_CLASS_NAME" value="de.uni_hamburg.informatik.swt.se2.mediathek.services.verleih.VerleihServiceImplTest" />
+      <option name="METHOD_NAME" value="testeVerleihUndRueckgabeVonMedien" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VormerkkarteTest" />
+        <item itemvalue="JUnit.VerleihServiceImplTest.testVerleihenUpdatedVormerker" />
+        <item itemvalue="JUnit.VerleihServiceImplTest.testeVerleihUndRueckgabeVonMedien" />
+        <item itemvalue="JUnit.VerleihServiceImplTest.testVormerkkarteLeerInitialisiert" />
+        <item itemvalue="JUnit.VerleihServiceImplTest.testNurObersterVormerkerKannAusleihen" />
+        <item itemvalue="JUnit.VerleihServiceImplTest.testVorgemerktesMediumIstVorgemerkt" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
       </set>
     </attachedChunks>
   </component>
@@ -147,6 +240,7 @@
       <workItem from="1749647574245" duration="19000" />
       <workItem from="1749650602226" duration="1316000" />
       <workItem from="1749824411137" duration="1383000" />
+      <workItem from="1750142919668" duration="7249000" />
     </task>
     <servers />
   </component>
@@ -163,5 +257,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

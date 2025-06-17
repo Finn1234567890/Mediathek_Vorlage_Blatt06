@@ -92,8 +92,8 @@ public class VormerkMedienauflisterWerkzeug extends ObservableSubWerkzeug
 
             medienFormatierer.add(new VormerkMedienFormatierer(medium,
                     entleiher, vormerker1, vormerker2, vormerker3));
-            System.out.println("setzeAnzuzeigendeMedien()");
-            System.out.println(vormerker1);
+//            System.out.println("setzeAnzuzeigendeMedien()");
+//            System.out.println(vormerker1);
         }
         _ui.getMedienAuflisterTableModel()
             .setMedien(medienFormatierer);
